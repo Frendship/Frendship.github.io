@@ -1,0 +1,32 @@
+body {
+ background-color: hsl(60, 100%, 90%) ;
+}
+h1 {
+ font-family: georgia;
+ color: black;
+ /*text-align: center;*/
+}
+p {
+ font-family: courier new;
+ font-size: 20px;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
